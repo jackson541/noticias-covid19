@@ -1,0 +1,35 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3%;
+}
+
+img {  
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid black;
+    padding: 1%;
+    background-color: white;
+}
+
+.imagem {
+    margin-top: 3%;
+}
+
+.noticia {
+    background-color: #eff2f5;
+    padding: 0% 2% 1% 2%;
+    margin: 3% 0%;
+    border: 1px solid #eff2f5;
+    box-shadow: 5px 5px 5px gray;
+    line-height: 150%;
+}
+
+.texto {
+    text-align: justify;
+    margin: 0% 1%;
+}
+
+iframe {
+    height: 400px;
+    width: 57%;
+}

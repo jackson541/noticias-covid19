@@ -1,0 +1,12 @@
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.part1 {
+    background-color: #eff2f5;
+    box-shadow: 5px 5px 5px gray;
+    padding: 1% 3%;
+}
